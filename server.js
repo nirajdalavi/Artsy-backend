@@ -6,7 +6,6 @@ const { URLSearchParams } = require('url');
 const cors = require('cors');
 const connectDB = require('./db');
 const cookieParser = require('cookie-parser');
-
 const authRoutes = require('./routes/auth');
 
 dotenv.config();
